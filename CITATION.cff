@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: >-
+  Stacked CNN Ensemble for Handwritten Digit Recognition (MNIST)
+message: >-
+  If you use this code, please cite the associated article (see
+  preferred-citation).
+type: software
+authors:
+  - given-names: Marwa
+    family-names: Amara
+    affiliation: Northern Border University, Arar, Saudi Arabia
+    email: Marwa.amara@nbu.edu.sa
+  - given-names: Olfa
+    family-names: Benrhiem
+  - given-names: Radhia
+    family-names: Zhagdoud
+  - given-names: Shouki A.
+    family-names: Ebad
+  - given-names: Abdelmalek
+    family-names: Zidouri
+repository-code: >-
+  https://github.com/marwaamara/A-Novel-Stacked-CNN-Ensemble-for-Enhanced-Feature-Extraction
+abstract: >-
+  A stacked ensemble for handwritten digit recognition that fuses
+  penultimate-layer embeddings from three ImageNet-pretrained CNN backbones
+  (VGG16, VGG19, ResNet50) and trains a multinomial logistic-regression
+  meta-learner on the concatenated features. Evaluated on MNIST with hold-out
+  and k-fold cross-validation, reaching 99% accuracy.
+keywords:
+  - handwritten digit recognition
+  - convolutional neural networks
+  - stacked ensemble
+  - feature extraction
+  - meta-learner
+  - MNIST
+preferred-citation:
+  type: article
+  title: >-
+    Feature Extraction of Handwritten Digit Recognition Using Stacked
+    Convolutional Neural Network Ensemble
+  authors:
+    - given-names: Marwa
+      family-names: Amara
+    - given-names: Olfa
+      family-names: Benrhiem
+    - given-names: Radhia
+      family-names: Zhagdoud
+    - given-names: Shouki A.
+      family-names: Ebad
+    - given-names: Abdelmalek
+      family-names: Zidouri
+  journal: Journal of Control Engineering and Applied Informatics
+  volume: 27
+  issue: 4
+  start: 16
+  end: 28
+  year: 2025
+  issn: 1454-8658
+  doi: 10.61416/ceai.v27i4.9454
